@@ -1,0 +1,54 @@
+.noprint {
+    display: none !important;
+}
+.print.product,
+.print.product__about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.print.product {
+    padding-top: 0;
+}
+
+
+.desk-norm .print.product .product__desc .product__desc_about {
+    padding-bottom: 0;
+}
+.desk-norm .print.product .product__desc {
+    margin-left: 10px;
+}
+
+.desk-norm .print.product .product__face .product__img {
+    border: 1px solid gray;
+}
+
+.print.product__about .about__advantages {
+    width: 50%;
+    margin-left: 20px;
+}
+.print.product__about .about__specifications {
+    width: 50%;
+}
+
+.print.container.markTb__container.desk-norm {
+    padding: 0;
+}
+.header__wrapper.print {
+    padding: 0;
+    padding-top: 15px;
+}
+
+.header__wrapper.print .header__left {
+    width: 200px;
+}
+
+.header__wrapper.print .header__center.contacts {
+    display: flex;
+    width: 100%;
+}
+
+.desk-norm .product__about.print .about__specifications .specifications__table .specifications__table_row > td {
+    padding-top: 0;
+    padding-bottom: 0;
+}
